@@ -253,32 +253,26 @@ namespace CursoWindowsForms
 
             void vToolTip002_Click(object sender1, EventArgs e1)
             {
-                if (!(Tbc_Aplicacoes.SelectedTab == null))
-                {
-                    int ItemSelecionado = Tbc_Aplicacoes.SelectedIndex;
-                    for(int i = ItemSelecionado - 1; i >= 0; i += -1)
-                    {
-                        Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
-                    }
-                }
+                ApagaEsquerda(Tbc_Aplicacoes.SelectedIndex);
             }
 
             void vToolTip003_Click(object sender1, EventArgs e1)
             {
                 if (!(Tbc_Aplicacoes.SelectedTab == null))
                 {
-                    int ItemSelecionado = Tbc_Aplicacoes.SelectedIndex;
-                    for (int i = Tbc_Aplicacoes.TabCount - 1; 
-                        i > ItemSelecionado; i += -1)
-                    {
-                        Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
-                    }
+                    ApagaDireita(Tbc_Aplicacoes.SelectedIndex);
+                    
                 }
             }
 
             void vToolTip004_Click(object sender1, EventArgs e1)
             {
-                
+                if (!(Tbc_Aplicacoes.SelectedTab == null))
+                {
+                    ApagaEsquerda(Tbc_Aplicacoes.SelectedIndex);
+                    ApagaDireita(Tbc_Aplicacoes.SelectedIndex);
+                }
+
             }
 
             ToolStripMenuItem DesenhaItemMenu(string text, string nomeImagem)
@@ -290,6 +284,23 @@ namespace CursoWindowsForms
                 vToolTip.Image = MyImage;
 
                 return vToolTip;
+            }
+
+            void ApagaDireita(int ItemSelecionado)
+            {
+                for (int i = Tbc_Aplicacoes.TabCount - 1;
+                        i > ItemSelecionado; i += -1)
+                {
+                    Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
+                }
+            }
+
+            void ApagaEsquerda(int ItemSelecionado)
+            {
+                for (int i = ItemSelecionado - 1; i >= 0; i += -1)
+                {
+                    Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
+                }
             }
         }
     }
