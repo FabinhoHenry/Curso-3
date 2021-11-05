@@ -215,6 +215,65 @@ namespace CursoWindowsForms
             desconectarToolStripMenuItem.Enabled = false;
             }
         }
+
+        private void Tbc_Aplicacoes_MouseDown(object sender, MouseEventArgs e)
+        {
+
+            if (e.Button == System.Windows.Forms.MouseButtons.Right)
+            {
+                //var PosicaoX = e.X;
+                //var PosicaoY = e.Y;
+
+                //MessageBox.Show("Cliquei com o botão da direita do mouse (" + PosicaoX.ToString() + ",", PosicaoY.ToString());
+
+                var ContextMenu = new ContextMenuStrip();
+                var vToolTip001 = DesenhaItemMenu("Apagar a Aba", "DeletaTab");
+                var vToolTip002 = DesenhaItemMenu("Apagar Todas as Esquerda", "DeleteLeft");
+                var vToolTip003 = DesenhaItemMenu("Apagar todas as Direita", "DeleteRight");
+                var vToolTip004 = DesenhaItemMenu("Apagar Todas menos Esta", "DeleteAll");
+                ContextMenu.Items.Add(vToolTip001);
+                ContextMenu.Items.Add(vToolTip002);
+                ContextMenu.Items.Add(vToolTip003);
+                ContextMenu.Items.Add(vToolTip004);
+                ContextMenu.Show(this, new Point(e.X, e.Y));
+                vToolTip001.Click += new System.EventHandler(vToolTip001_Click);
+                vToolTip002.Click += new System.EventHandler(vToolTip002_Click);
+                vToolTip001.Click += new System.EventHandler(vToolTip003_Click);
+                vToolTip002.Click += new System.EventHandler(vToolTip004_Click);
+
+            }
+
+            void vToolTip001_Click(object sender1, EventArgs e1)
+            {
+                
+            }
+
+            void vToolTip002_Click(object sender1, EventArgs e1)
+            {
+                
+            }
+
+            void vToolTip003_Click(object sender1, EventArgs e1)
+            {
+                
+            }
+
+            void vToolTip004_Click(object sender1, EventArgs e1)
+            {
+                
+            }
+
+            ToolStripMenuItem DesenhaItemMenu(string text, string nomeImagem)
+            {
+                var vToolTip = new ToolStripMenuItem();
+                vToolTip.Text = text;
+
+                Image MyImage = (Image)global::CursoWindowsForms.Properties.Resources.ResourceManager.GetObject(nomeImagem);
+                vToolTip.Image = MyImage;
+
+                return vToolTip;
+            }
+        }
     }
 }
  

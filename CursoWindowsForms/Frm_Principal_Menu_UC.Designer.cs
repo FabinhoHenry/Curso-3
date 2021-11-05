@@ -61,7 +61,7 @@ namespace CursoWindowsForms
             this.windowsToolStripMenuItem});
             this.Mnu_Principal.Location = new System.Drawing.Point(0, 0);
             this.Mnu_Principal.Name = "Mnu_Principal";
-            this.Mnu_Principal.Size = new System.Drawing.Size(800, 30);
+            this.Mnu_Principal.Size = new System.Drawing.Size(800, 28);
             this.Mnu_Principal.TabIndex = 0;
             this.Mnu_Principal.Text = "menuStrip1";
             // 
@@ -74,7 +74,7 @@ namespace CursoWindowsForms
             this.apagarAbaToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
-            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(75, 26);
+            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
             this.arquivoToolStripMenuItem.Text = "Arquivo";
             this.arquivoToolStripMenuItem.Click += new System.EventHandler(this.arquivoToolStripMenuItem_Click);
             // 
@@ -179,7 +179,7 @@ namespace CursoWindowsForms
             this.açõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.abrirImagemToolStripMenuItem});
             this.açõesToolStripMenuItem.Name = "açõesToolStripMenuItem";
-            this.açõesToolStripMenuItem.Size = new System.Drawing.Size(63, 26);
+            this.açõesToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
             this.açõesToolStripMenuItem.Text = "Ações";
             // 
             // abrirImagemToolStripMenuItem
@@ -192,18 +192,19 @@ namespace CursoWindowsForms
             // windowsToolStripMenuItem
             // 
             this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
-            this.windowsToolStripMenuItem.Size = new System.Drawing.Size(84, 26);
+            this.windowsToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
             this.windowsToolStripMenuItem.Text = "Windows";
             // 
             // Tbc_Aplicacoes
             // 
             this.Tbc_Aplicacoes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Tbc_Aplicacoes.ImageList = this.Iml_Imagens;
-            this.Tbc_Aplicacoes.Location = new System.Drawing.Point(0, 30);
+            this.Tbc_Aplicacoes.Location = new System.Drawing.Point(0, 28);
             this.Tbc_Aplicacoes.Name = "Tbc_Aplicacoes";
             this.Tbc_Aplicacoes.SelectedIndex = 0;
-            this.Tbc_Aplicacoes.Size = new System.Drawing.Size(800, 420);
+            this.Tbc_Aplicacoes.Size = new System.Drawing.Size(800, 422);
             this.Tbc_Aplicacoes.TabIndex = 1;
+            this.Tbc_Aplicacoes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tbc_Aplicacoes_MouseDown);
             // 
             // Iml_Imagens
             // 

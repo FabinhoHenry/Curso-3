@@ -42,5 +42,10 @@ namespace CursoWindowsForms
             DialogResult = DialogResult.Cancel;
             this.Close();
         }
+
+        private void Txt_Password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

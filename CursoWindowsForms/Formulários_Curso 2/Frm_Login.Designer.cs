@@ -78,8 +78,10 @@ namespace CursoWindowsForms
             // 
             this.Txt_Password.Location = new System.Drawing.Point(122, 85);
             this.Txt_Password.Name = "Txt_Password";
+            this.Txt_Password.PasswordChar = '*';
             this.Txt_Password.Size = new System.Drawing.Size(151, 22);
             this.Txt_Password.TabIndex = 4;
+            this.Txt_Password.TextChanged += new System.EventHandler(this.Txt_Password_TextChanged);
             // 
             // Btn_OK
             // 
