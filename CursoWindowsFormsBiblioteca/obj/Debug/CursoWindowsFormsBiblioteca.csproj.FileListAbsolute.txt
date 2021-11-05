@@ -1,0 +1,5 @@
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsFormsBiblioteca\bin\Debug\CursoWindowsFormsBiblioteca.dll
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsFormsBiblioteca\bin\Debug\CursoWindowsFormsBiblioteca.pdb
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.dll
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.pdb

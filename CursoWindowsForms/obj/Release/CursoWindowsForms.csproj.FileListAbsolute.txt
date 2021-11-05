@@ -1,0 +1,16 @@
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\obj\Release\CursoWindowsForms.csproj.AssemblyReference.cache
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_DemonstracaoKey.resources
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_HelloWorld.resources
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Mascara.resources
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_Principal.resources
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaCPF.resources
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaCPF2.resources
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\obj\Release\CursoWindowsForms.Frm_ValidaSenha.resources
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\obj\Release\CursoWindowsForms.csproj.GenerateResource.cache
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\bin\Release\CursoWindowsForms.exe.config
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\bin\Release\CursoWindowsForms.exe
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\bin\Release\CursoWindowsForms.pdb
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\obj\Release\CursoWindowsForms.Properties.Resources.resources
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\obj\Release\CursoWindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\obj\Release\CursoWindowsForms.exe
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsForms\obj\Release\CursoWindowsForms.pdb
