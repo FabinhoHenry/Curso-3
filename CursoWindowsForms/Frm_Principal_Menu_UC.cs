@@ -238,8 +238,8 @@ namespace CursoWindowsForms
                 ContextMenu.Show(this, new Point(e.X, e.Y));
                 vToolTip001.Click += new System.EventHandler(vToolTip001_Click);
                 vToolTip002.Click += new System.EventHandler(vToolTip002_Click);
-                vToolTip001.Click += new System.EventHandler(vToolTip003_Click);
-                vToolTip002.Click += new System.EventHandler(vToolTip004_Click);
+                vToolTip003.Click += new System.EventHandler(vToolTip003_Click);
+                vToolTip004.Click += new System.EventHandler(vToolTip004_Click);
 
             }
 
@@ -265,7 +265,15 @@ namespace CursoWindowsForms
 
             void vToolTip003_Click(object sender1, EventArgs e1)
             {
-                
+                if (!(Tbc_Aplicacoes.SelectedTab == null))
+                {
+                    int ItemSelecionado = Tbc_Aplicacoes.SelectedIndex;
+                    for (int i = Tbc_Aplicacoes.TabCount - 1; 
+                        i > ItemSelecionado; i += -1)
+                    {
+                        Tbc_Aplicacoes.TabPages.Remove(Tbc_Aplicacoes.TabPages[i]);
+                    }
+                }
             }
 
             void vToolTip004_Click(object sender1, EventArgs e1)
