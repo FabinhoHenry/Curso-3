@@ -45,7 +45,7 @@ namespace CursoWindowsForms
 
             void vToolTip002_Click(object sender1, EventArgs e1)
             {
-                MessageBox.Show("Selecionei a opção do menu 001");
+                MessageBox.Show("Selecionei a opção do menu 002");
             }
 
             ToolStripMenuItem DesenhaItemMenu(string text, string nomeImagem)
