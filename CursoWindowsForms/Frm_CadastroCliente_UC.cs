@@ -15,6 +15,10 @@ namespace CursoWindowsForms
         public Frm_CadastroCliente_UC()
         {
             InitializeComponent();
+            Grp_Codigo.Text = "Código";
+            Grp_DadosPessoais.Text = "Dados pessoais";
+            Grp_Endereco.Text = "Endereço";
+            Grp_Outros.Text = "Outros;";
             Lbl_Bairro.Text = "Bairro";
             Lbl_CEP.Text = "CEP";
             Lbl_Complemento.Text = "Complemento";
@@ -41,6 +45,26 @@ namespace CursoWindowsForms
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Txt_NomePai_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Grp_DadosPessoais_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Lbl_NomeCliente_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Grp_Codigo_Enter(object sender, EventArgs e)
         {
 
         }

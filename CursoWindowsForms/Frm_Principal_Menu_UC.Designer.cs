@@ -65,7 +65,7 @@ namespace CursoWindowsForms
             this.windowsToolStripMenuItem});
             this.Mnu_Principal.Location = new System.Drawing.Point(0, 0);
             this.Mnu_Principal.Name = "Mnu_Principal";
-            this.Mnu_Principal.Size = new System.Drawing.Size(800, 28);
+            this.Mnu_Principal.Size = new System.Drawing.Size(800, 30);
             this.Mnu_Principal.TabIndex = 0;
             this.Mnu_Principal.Text = "menuStrip1";
             // 
@@ -78,7 +78,7 @@ namespace CursoWindowsForms
             this.apagarAbaToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.arquivoToolStripMenuItem.Name = "arquivoToolStripMenuItem";
-            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
+            this.arquivoToolStripMenuItem.Size = new System.Drawing.Size(75, 26);
             this.arquivoToolStripMenuItem.Text = "Arquivo";
             this.arquivoToolStripMenuItem.Click += new System.EventHandler(this.arquivoToolStripMenuItem_Click);
             // 
@@ -184,7 +184,7 @@ namespace CursoWindowsForms
             this.cadastroToolStripMenuItem});
             this.byteBankToolStripMenuItem.Image = global::CursoWindowsForms.Properties.Resources.money;
             this.byteBankToolStripMenuItem.Name = "byteBankToolStripMenuItem";
-            this.byteBankToolStripMenuItem.Size = new System.Drawing.Size(104, 24);
+            this.byteBankToolStripMenuItem.Size = new System.Drawing.Size(104, 26);
             this.byteBankToolStripMenuItem.Text = "ByteBank";
             // 
             // cadastroToolStripMenuItem
@@ -193,14 +193,14 @@ namespace CursoWindowsForms
             this.clienteToolStripMenuItem});
             this.cadastroToolStripMenuItem.Image = global::CursoWindowsForms.Properties.Resources.Cadastros;
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(151, 26);
             this.cadastroToolStripMenuItem.Text = "Cadastro";
             // 
             // clienteToolStripMenuItem
             // 
             this.clienteToolStripMenuItem.Image = global::CursoWindowsForms.Properties.Resources.user;
             this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
-            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.clienteToolStripMenuItem.Size = new System.Drawing.Size(138, 26);
             this.clienteToolStripMenuItem.Text = "Cliente";
             this.clienteToolStripMenuItem.Click += new System.EventHandler(this.clienteToolStripMenuItem_Click);
             // 
@@ -209,30 +209,30 @@ namespace CursoWindowsForms
             this.açõesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.abrirImagemToolStripMenuItem});
             this.açõesToolStripMenuItem.Name = "açõesToolStripMenuItem";
-            this.açõesToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
+            this.açõesToolStripMenuItem.Size = new System.Drawing.Size(63, 26);
             this.açõesToolStripMenuItem.Text = "Ações";
             // 
             // abrirImagemToolStripMenuItem
             // 
             this.abrirImagemToolStripMenuItem.Name = "abrirImagemToolStripMenuItem";
-            this.abrirImagemToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.abrirImagemToolStripMenuItem.Size = new System.Drawing.Size(184, 26);
             this.abrirImagemToolStripMenuItem.Text = "Abrir imagem";
             this.abrirImagemToolStripMenuItem.Click += new System.EventHandler(this.abrirImagemToolStripMenuItem_Click);
             // 
             // windowsToolStripMenuItem
             // 
             this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
-            this.windowsToolStripMenuItem.Size = new System.Drawing.Size(84, 24);
+            this.windowsToolStripMenuItem.Size = new System.Drawing.Size(84, 26);
             this.windowsToolStripMenuItem.Text = "Windows";
             // 
             // Tbc_Aplicacoes
             // 
             this.Tbc_Aplicacoes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.Tbc_Aplicacoes.ImageList = this.Iml_Imagens;
-            this.Tbc_Aplicacoes.Location = new System.Drawing.Point(0, 28);
+            this.Tbc_Aplicacoes.Location = new System.Drawing.Point(0, 30);
             this.Tbc_Aplicacoes.Name = "Tbc_Aplicacoes";
             this.Tbc_Aplicacoes.SelectedIndex = 0;
-            this.Tbc_Aplicacoes.Size = new System.Drawing.Size(800, 422);
+            this.Tbc_Aplicacoes.Size = new System.Drawing.Size(800, 420);
             this.Tbc_Aplicacoes.TabIndex = 1;
             this.Tbc_Aplicacoes.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tbc_Aplicacoes_MouseDown);
             // 
