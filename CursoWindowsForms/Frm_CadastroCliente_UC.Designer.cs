@@ -62,10 +62,13 @@ namespace CursoWindowsForms
             this.Grp_Outros = new System.Windows.Forms.GroupBox();
             this.Lbl_Cidade = new System.Windows.Forms.Label();
             this.Txt_Cidade = new System.Windows.Forms.TextBox();
+            this.Grp_TemPai = new System.Windows.Forms.GroupBox();
+            this.Chk_TemPai = new System.Windows.Forms.CheckBox();
             this.Grp_Codigo.SuspendLayout();
             this.Grp_DadosPessoais.SuspendLayout();
             this.Grp_Endereco.SuspendLayout();
             this.Grp_Outros.SuspendLayout();
+            this.Grp_TemPai.SuspendLayout();
             this.SuspendLayout();
             // 
             // Lbl_CPF
@@ -120,7 +123,7 @@ namespace CursoWindowsForms
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Txt_NomePai.Location = new System.Drawing.Point(6, 82);
             this.Txt_NomePai.Name = "Txt_NomePai";
-            this.Txt_NomePai.Size = new System.Drawing.Size(750, 22);
+            this.Txt_NomePai.Size = new System.Drawing.Size(472, 22);
             this.Txt_NomePai.TabIndex = 3;
             this.Txt_NomePai.TextChanged += new System.EventHandler(this.Txt_NomePai_TextChanged);
             // 
@@ -291,7 +294,7 @@ namespace CursoWindowsForms
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Txt_NomeMae.Location = new System.Drawing.Point(6, 134);
             this.Txt_NomeMae.Name = "Txt_NomeMae";
-            this.Txt_NomeMae.Size = new System.Drawing.Size(751, 22);
+            this.Txt_NomeMae.Size = new System.Drawing.Size(472, 22);
             this.Txt_NomeMae.TabIndex = 4;
             // 
             // Txt_Codigo
@@ -318,6 +321,7 @@ namespace CursoWindowsForms
             // 
             this.Grp_DadosPessoais.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.Grp_DadosPessoais.Controls.Add(this.Grp_TemPai);
             this.Grp_DadosPessoais.Controls.Add(this.Txt_NomeCliente);
             this.Grp_DadosPessoais.Controls.Add(this.Lbl_NomeCliente);
             this.Grp_DadosPessoais.Controls.Add(this.Txt_NomeMae);
@@ -393,6 +397,26 @@ namespace CursoWindowsForms
             this.Txt_Cidade.Size = new System.Drawing.Size(364, 22);
             this.Txt_Cidade.TabIndex = 11;
             // 
+            // Grp_TemPai
+            // 
+            this.Grp_TemPai.Controls.Add(this.Chk_TemPai);
+            this.Grp_TemPai.Location = new System.Drawing.Point(495, 73);
+            this.Grp_TemPai.Name = "Grp_TemPai";
+            this.Grp_TemPai.Size = new System.Drawing.Size(262, 83);
+            this.Grp_TemPai.TabIndex = 26;
+            this.Grp_TemPai.TabStop = false;
+            // 
+            // Chk_TemPai
+            // 
+            this.Chk_TemPai.AutoSize = true;
+            this.Chk_TemPai.Location = new System.Drawing.Point(6, 37);
+            this.Chk_TemPai.Name = "Chk_TemPai";
+            this.Chk_TemPai.Size = new System.Drawing.Size(98, 21);
+            this.Chk_TemPai.TabIndex = 0;
+            this.Chk_TemPai.Text = "checkBox1";
+            this.Chk_TemPai.UseVisualStyleBackColor = true;
+            this.Chk_TemPai.CheckedChanged += new System.EventHandler(this.Chk_TemPai_CheckedChanged);
+            // 
             // Frm_CadastroCliente_UC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -412,6 +436,8 @@ namespace CursoWindowsForms
             this.Grp_Endereco.PerformLayout();
             this.Grp_Outros.ResumeLayout(false);
             this.Grp_Outros.PerformLayout();
+            this.Grp_TemPai.ResumeLayout(false);
+            this.Grp_TemPai.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -451,5 +477,7 @@ namespace CursoWindowsForms
         private System.Windows.Forms.GroupBox Grp_Outros;
         private System.Windows.Forms.Label Lbl_Cidade;
         private System.Windows.Forms.TextBox Txt_Cidade;
+        private System.Windows.Forms.GroupBox Grp_TemPai;
+        private System.Windows.Forms.CheckBox Chk_TemPai;
     }
 }

@@ -33,6 +33,7 @@ namespace CursoWindowsForms
             Lbl_RendaFamiliar.Text = "Renda Familiar";
             Lbl_Telefone.Text = "Telefone";
             Lbl_Cidade.Text = "Cidade";
+            Chk_TemPai.Text = "Pai desconhecido";
         }
 
         private void Frm_CadastroCliente_UC_Load(object sender, EventArgs e)
@@ -78,6 +79,19 @@ namespace CursoWindowsForms
         private void Txt_Telefone_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Chk_TemPai_CheckedChanged(object sender, EventArgs e)
+        {
+            if (Chk_TemPai.Checked)
+            {
+                Txt_NomePai.Enabled = false;
+
+            }
+            else
+            {
+                Txt_NomePai.Enabled = true;
+            }
         }
     }
 }
