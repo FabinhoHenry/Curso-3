@@ -32,6 +32,7 @@ namespace CursoWindowsForms
             Lbl_Profissao.Text = "Profissão";
             Lbl_RendaFamiliar.Text = "Renda Familiar";
             Lbl_Telefone.Text = "Telefone";
+            Lbl_Cidade.Text = "Cidade";
         }
 
         private void Frm_CadastroCliente_UC_Load(object sender, EventArgs e)
@@ -65,6 +66,16 @@ namespace CursoWindowsForms
         }
 
         private void Grp_Codigo_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Grp_Outros_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Txt_Telefone_TextChanged(object sender, EventArgs e)
         {
 
         }
