@@ -24,7 +24,6 @@ namespace CursoWindowsForms
             Lbl_Complemento.Text = "Complemento";
             Lbl_CPF.Text = "CPF";
             Lbl_Estado.Text = "Estado";
-            Lbl_Genero.Text = "Genero";
             Lbl_Logradouro.Text = "Logradouro";
             Lbl_NomeCliente.Text = "Nome";
             Lbl_NomeMae.Text = "Nome da Mãe";
@@ -34,6 +33,21 @@ namespace CursoWindowsForms
             Lbl_Telefone.Text = "Telefone";
             Lbl_Cidade.Text = "Cidade";
             Chk_TemPai.Text = "Pai desconhecido";
+            Rdb_Masculino.Text = "Masculino";
+            Rdb_Feminino.Text = "Feminino";
+            Rdb_Indefinido.Text = "Indefinido";
+            Grp_Genero.Text = "Genero";
+            Cmb_Estados.Items.Clear();
+            Cmb_Estados.Items.Add("Acre(AC)");
+            Cmb_Estados.Items.Add("Alagoas(AL)");
+            Cmb_Estados.Items.Add("Amapá(AP)");
+
+            Tls_Principal.Items[0].ToolTipText = "Incluir na base de dados um novo cliente";
+            Tls_Principal.Items[1].ToolTipText = "Capturar um cliente já cadastrado na base";
+            Tls_Principal.Items[2].ToolTipText = "Atualizar o cliente ja existente";
+            Tls_Principal.Items[3].ToolTipText = "Apaga o cliente selecionado";
+            Tls_Principal.Items[4].ToolTipText = "Limpa dados da tela de entrada de dados";
+
         }
 
         private void Frm_CadastroCliente_UC_Load(object sender, EventArgs e)
@@ -92,6 +106,36 @@ namespace CursoWindowsForms
             {
                 Txt_NomePai.Enabled = true;
             }
+        }
+
+        private void Rdb_Indefinido_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void newToolStripButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Efetuei um clique sobre o botão NOVO");
+        }
+
+        private void openToolStripButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Efetuei um clique sobre o botão ABRIR");
+        }
+
+        private void saveToolStripButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Efetuei um clique sobre o botão SALVAR");
+        }
+
+        private void ApagatoolStripButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Efetuei um clique sobre o botão EXCLUIR");
+        }
+
+        private void LimpartoolStripButton_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Efetuei um clique sobre o botão LIMPAR");
         }
     }
 }
