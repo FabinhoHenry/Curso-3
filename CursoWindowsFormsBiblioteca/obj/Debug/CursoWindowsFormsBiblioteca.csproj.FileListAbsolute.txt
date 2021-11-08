@@ -3,3 +3,9 @@ C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsFormsB
 C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CoreCompileInputs.cache
 C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.dll
 C:\Users\fabio.henrique\Desktop\Projetos\Alura\Projetos Forms\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.pdb
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsFormsBiblioteca\bin\Debug\CursoWindowsFormsBiblioteca.dll
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsFormsBiblioteca\bin\Debug\CursoWindowsFormsBiblioteca.pdb
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.AssemblyReference.cache
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CoreCompileInputs.cache
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.dll
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.pdb

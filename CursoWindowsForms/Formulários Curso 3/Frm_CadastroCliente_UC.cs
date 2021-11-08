@@ -7,6 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CursoWindowsFormsBiblioteca.Classes;
+using System.ComponentModel.DataAnnotations;
+using Microsoft.VisualBasic;
+
 
 namespace CursoWindowsForms
 {
@@ -115,7 +119,26 @@ namespace CursoWindowsForms
 
         private void newToolStripButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Efetuei um clique sobre o botão NOVO");
+            try
+            {
+                Cliente.Unit C = new Cliente.Unit();
+                C = LeituraFormulario();
+                C.ValidaClasse();
+                C.ValidaComplemento();
+                MessageBox.Show("Classe foi inicializada sem erros", "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch(ValidationException Ex)
+            {
+                MessageBox.Show(Ex.Message, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+
+
+
         }
 
         private void openToolStripButton_Click(object sender, EventArgs e)
@@ -136,6 +159,69 @@ namespace CursoWindowsForms
         private void LimpartoolStripButton_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Efetuei um clique sobre o botão LIMPAR");
+        }
+
+        Cliente.Unit LeituraFormulario()
+        {
+            Cliente.Unit C = new Cliente.Unit();
+            C.Id = Txt_Codigo.Text;
+            C.Name = Txt_NomeCliente.Text;
+            C.NomeMae = Txt_NomeMae.Text;
+            C.NomePai = Txt_NomePai.Text;
+            if (Chk_TemPai.Checked)
+            {
+                C.NaoTemPai = true;
+            }
+            else
+            {
+                C.NaoTemPai = false;
+            }
+            if (Rdb_Masculino.Checked)
+            {
+                C.Genero = 0;
+            }
+            if (Rdb_Feminino.Checked)
+            {
+                C.Genero = 1;
+            }
+            if (Rdb_Indefinido.Checked)
+            {
+                C.Genero = 2;
+            }
+            C.Cpf = Txt_CPF.Text;
+
+            C.Cep = Txt_CEP.Text;
+            C.Logradouro = Txt_Logradouro.Text;
+            C.Complemento = Txt_Complemento.Text;
+            C.Cidade = Txt_Cidade.Text;
+            C.Bairro = Txt_Bairro.Text;
+
+            if (Cmb_Estados.SelectedIndex < 0)
+            {
+                C.Estado = "";
+            }
+            else
+            {
+                C.Estado = Cmb_Estados.Items[Cmb_Estados.SelectedIndex].ToString();
+            }
+
+            C.Telefone = Txt_Telefone.Text;
+            C.Profissao = Txt_Profissao.Text;
+
+            if (Information.IsNumeric(Txt_RendaFamiliar.Text))
+            {
+                Double vRenda = Convert.ToDouble(Txt_RendaFamiliar.Text);
+                if(vRenda < 0)
+                {
+                    C.RendaFamiliar = 0;
+                }
+                else
+                {
+                    C.RendaFamiliar = vRenda;
+                }
+            }
+           
+            return C;
         }
     }
 }
