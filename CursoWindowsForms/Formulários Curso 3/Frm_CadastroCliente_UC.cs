@@ -120,10 +120,7 @@ namespace CursoWindowsForms
         private void newToolStripButton_Click(object sender, EventArgs e)
         {
 
-            var vJson = Cls_Uteis.GeraJSONCEP("17055270");
-
-            Cep.Unit CEP = new Cep.Unit();
-            CEP = Cep.DesSerializedClassUnit(vJson);
+            
 
             try
             {
@@ -228,6 +225,26 @@ namespace CursoWindowsForms
             }
            
             return C;
+        }
+
+        private void Txt_CEP_Leave(object sender, EventArgs e)
+        {
+            string vCep = Txt_CEP.Text;
+            if (vCep != "")
+            {
+                if(vCep.Length == 8)
+                {
+                    if (Information.IsNumeric(vCep))
+                    {
+                        var vJson = Cls_Uteis.GeraJSONCEP(vCep);
+                        Cep.Unit CEP = new Cep.Unit();
+                        CEP = Cep.DesSerializedClassUnit(vJson);
+                        Txt_Logradouro.Text = CEP.logradouro;
+                        Txt_Bairro.Text = CEP.bairro;
+                        Txt_Cidade.Text = CEP.localidade;
+                    }
+                }
+            }
         }
     }
 }

@@ -76,6 +76,5 @@ C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsForms\obj\Deb
 C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsForms\obj\Debug\CursoWindowsForms.pdb
 C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_Menu_Flutuante.resources
 C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsForms\obj\Debug\CursoWindowsForms.Frm_CadastroCliente_UC.resources
-C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsForms\obj\Debug\CursoWindowsForms.csproj.CopyComplete
 C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsForms\bin\Debug\Newtonsoft.Json.dll
 C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsForms\bin\Debug\Newtonsoft.Json.xml
