@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using CursoWindowsFormsBiblioteca.Classes;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.VisualBasic;
-
+using CursoWindowsFormsBiblioteca;
 
 namespace CursoWindowsForms
 {
@@ -119,6 +119,12 @@ namespace CursoWindowsForms
 
         private void newToolStripButton_Click(object sender, EventArgs e)
         {
+
+            var vJson = Cls_Uteis.GeraJSONCEP("17055270");
+
+            Cep.Unit CEP = new Cep.Unit();
+            CEP = Cep.DesSerializedClassUnit(vJson);
+
             try
             {
                 Cliente.Unit C = new Cliente.Unit();

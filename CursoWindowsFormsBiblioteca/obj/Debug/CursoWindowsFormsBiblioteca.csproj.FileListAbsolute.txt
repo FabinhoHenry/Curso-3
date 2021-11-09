@@ -9,3 +9,6 @@ C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsFormsBibliote
 C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CoreCompileInputs.cache
 C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.dll
 C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.pdb
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsFormsBiblioteca\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsFormsBiblioteca\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fabio.henrique\Desktop\Projetos\Alura\Curso 3\CursoWindowsFormsBiblioteca\obj\Debug\CursoWindowsFormsBiblioteca.csproj.CopyComplete
