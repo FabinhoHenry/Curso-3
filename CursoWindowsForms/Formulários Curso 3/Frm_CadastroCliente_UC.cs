@@ -45,6 +45,8 @@ namespace CursoWindowsForms
             Cmb_Estados.Items.Add("Acre(AC)");
             Cmb_Estados.Items.Add("Alagoas(AL)");
             Cmb_Estados.Items.Add("Amapá(AP)");
+            Cmb_Estados.Items.Add("São Paulo(SP)");
+            Cmb_Estados.Items.Add("Rio de Janeiro(RJ)");
 
             Tls_Principal.Items[0].ToolTipText = "Incluir na base de dados um novo cliente";
             Tls_Principal.Items[1].ToolTipText = "Capturar um cliente já cadastrado na base";
@@ -242,6 +244,17 @@ namespace CursoWindowsForms
                         Txt_Logradouro.Text = CEP.logradouro;
                         Txt_Bairro.Text = CEP.bairro;
                         Txt_Cidade.Text = CEP.localidade;
+
+                        Cmb_Estados.SelectedIndex = -1;
+                        for (int i = 0; i <= Cmb_Estados.Items.Count - 1; i++)
+                        {
+                            var vPos = Strings.InStr(Cmb_Estados.Items[i].ToString(), "(" + CEP.uf + ")");
+                            if (vPos > 0)
+                            {
+                                Cmb_Estados.SelectedIndex = i;
+                            }
+                        }
+
                     }
                 }
             }
